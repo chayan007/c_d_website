@@ -1385,6 +1385,10 @@ a:focus {
 .sticky-btn>a{
   color: white;
 }
+.logoNav>img{
+  width:350px;
+	height:35px;
+}
 @media (max-width: 768px) {
   .sticky-btn{
     opacity: 1;
@@ -1392,12 +1396,16 @@ a:focus {
   .live-demo{
     opacity: 0;
   }
+  .logoNav{
+    margin-left: -5px;
+  }
   
+  .logoNav>img{
+    width:230px;
+    height:29px;
+  }
 }
-.logoNav>img{
-  width:350px;
-	height:35px;
-}
+
 @media (max-width: 992px) {
   .sticky-btn{
     opacity: 1;

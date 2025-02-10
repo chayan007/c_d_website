@@ -1394,7 +1394,10 @@ a:focus {
   }
   
 }
-
+.logoNav>img{
+  width:350px;
+	height:35px;
+}
 @media (max-width: 992px) {
   .sticky-btn{
     opacity: 1;
@@ -1402,5 +1405,15 @@ a:focus {
   .live-demo{
     opacity: 0;
   }
-  
+  .logoNav{
+    margin-left: -15px;
+  }
+  .navlogo{
+    width:200px;
+    height:35px;
+  }
+  .logoNav>img{
+    width:265px;
+    height:35px;
+  }
 }
